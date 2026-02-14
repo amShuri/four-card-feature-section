@@ -63,7 +63,7 @@ I also learned how to use clamp() better. This is something I keep having troubl
 
 ### Continued development
 
-In the future I want to keep learning about clamp(), CSS Grid, responsive design and m.
+In the future I want to keep learning about clamp(), CSS Grid and mobile-first workflow.
 
 ## Author
 
