@@ -113,7 +113,7 @@ body {
   background-size: contain;
   height: 4.57rem;
   width: 4.57rem;
-  margin-top: 3rem;
+  margin-block-start: 3rem;
 
   /* Grid Property */
   justify-self: end;
@@ -174,7 +174,7 @@ body {
 
   .header {
     margin: 0 auto;
-    margin-bottom: 3.77rem;
+    margin-block-end: 3.77rem;
   }
 
   .cards__section {
