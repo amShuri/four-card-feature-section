@@ -160,6 +160,23 @@ body {
 }
 
 @media screen and (min-width: 80rem) {
+  body {
+    margin: 0;
+  }
+
+  .wrapper {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    margin: 0 auto;
+    margin-bottom: 3.77rem;
+  }
+
   .cards__section {
     align-items: center;
     justify-content: center;
