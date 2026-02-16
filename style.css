@@ -54,7 +54,7 @@ body {
 
 body {
   background-color: var(--body-bg-clr);
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   margin: 1.87rem;
 }
 
