@@ -66,8 +66,6 @@ body {
 .header__title {
   font-weight: var(--fw-light);
   font-size: clamp(1.62em, 3vw, 2.05rem);
-  max-width: 80ch;
-  margin-inline: auto;
 }
 
 .header__title > span,
