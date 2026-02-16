@@ -162,10 +162,7 @@ body {
 @media screen and (min-width: 80rem) {
   body {
     margin: 0;
-  }
-
-  .wrapper {
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     align-items: center;
