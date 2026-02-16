@@ -55,17 +55,18 @@ body {
 body {
   background-color: var(--body-bg-clr);
   font-family: 'Poppins', sans-serif;
-  margin: 1.87rem;
+  margin: 3.5rem 2.5rem;
 }
 
 .header {
   max-width: 35rem;
-  margin: 3.77rem auto;
+  margin-inline: auto;
 }
 
 .header__title {
   font-weight: var(--fw-light);
-  font-size: clamp(1.62em, 3vw, 2.05rem);
+  font-size: clamp(1.62em, 3vw, 2.4rem);
+  margin-block-end: 0.67rem;
 }
 
 .header__title > span,
@@ -89,8 +90,10 @@ body {
 }
 
 .cards__section {
+  margin: 4rem 0;
+
   display: grid;
-  gap: 2.47rem;
+  gap: 3rem;
 }
 
 .card {
@@ -101,7 +104,7 @@ body {
   );
   border-radius: 0.67rem;
   box-shadow: 0 0.67rem 1.2rem var(--card-shadow-clr);
-  padding: 2rem;
+  padding: 2rem 1.75rem;
 
   display: grid;
 }
@@ -111,12 +114,20 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 4.57rem;
-  width: 4.57rem;
-  margin-block-start: 3rem;
+  height: 4.2rem;
+  width: 4.2rem;
+  margin-block-start: 2.4rem;
 
   /* Grid Property */
   justify-self: end;
+}
+
+.card__title {
+  font-size: clamp(1.38rem, 3vw, 1.5rem);
+}
+
+.card__description {
+  font-size: clamp(0.9rem, 3vw, 1rem);
 }
 
 /* Card Borders */
@@ -160,8 +171,12 @@ body {
 }
 
 @media screen and (min-width: 80rem) {
+  body,
+  .header {
+    margin: 0 auto;
+  }
+
   body {
-    margin: 0;
     min-height: 100vh;
 
     display: flex;
@@ -169,15 +184,10 @@ body {
     justify-content: center;
   }
 
-  .header {
-    margin: 0 auto;
-    margin-block-end: 3.77rem;
-  }
-
   .cards__section {
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(3, minmax(22rem, 25rem));
+    grid-template-columns: repeat(3, minmax(22rem, 23rem));
     grid-template-rows: repeat(2, auto);
   }
 
